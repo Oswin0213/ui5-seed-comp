@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Testing Overview</title>
+		<!--  try to load the basic UI5 styles -->
+		<link rel="stylesheet" type="text/css" href="/resources/sap/ui/core/themes/sap_belize/library.css">
+	</head>
+	<body class="sapUiBody sapUiMediumMargin sapUiForceWidthAuto">
+		<h1>Possible Start Options</h1>
+		<p>
+			This is an overview page of various ways to run you app during development.<br/>
+			Choose one of the access points below to launch the app.
+		</p>
+
+		<h2>SAPUI5</h2>
+		<h3>Local</h3>
+		<ul>
+			<li><a href="/sapui5/index.html">Local SAPUI5 SDK / Demokit</a></li>
+			<!--Use the local SAPUI5 distribution -->
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/localFlpSandbox.html#SeedApp-display">Start in FLP Sandbox (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/localFlpSandbox.html?sap-theme=ui5belizewater#SeedApp-display">Start in FLP Sandbox (Custom Theme)</a></li>
+		</ul>
+		<h3>CDN</h3>
+		<ul>
+			<!--TODO use a real local SAPUI5 distribution when it gets available soon via npm etc. -->
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/flpSandbox.html#SeedApp-display">Start in FLP Sandbox (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/flpSandbox.html?sap-theme=ui5belizewater#SeedApp-display">Start in FLP Sandbox (Custom Theme)</a></li>
+		</ul>
+
+		<h2>OpenUI5</h2>
+		<h3>Local</h3>
+		<ul>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/openui5.html">Start Standalone App (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/openui5.html?sap-theme=ui5belizewater">Start Standalone App (Custom Theme)</a></li>
+		</ul>
+		<h3>CDN</h3>
+		<ul>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/openui5CDN.html">Start Standalone App (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/openui5CDN.html?sap-theme=ui5belizewater">Start Standalone App (Custom Theme)</a></li>
+		</ul>
+		<h3>Nightly</h3>
+		<ul>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/openui5Nightly.html">Start Standalone App (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/bootstrapping/openui5Nightly.html?sap-theme=ui5belizewater">Start Standalone App (Custom Theme)</a></li>
+		</ul>
+
+		<h2>Automated Testing</h2>
+		<ul>
+			<li><a href="test-resources/nabi.seed.comp/testsuite.qunit.html">TestSuite - requires SAPUI5 (QUnit + OPA)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/unit/unitTests.qunit.html">Unit Tests (QUnit)</a></li>
+			<li><a href="test-resources/nabi.seed.comp/integration/opaTests.qunit.html">Integration Tests (OPA)</a></li>
+		</ul>
+
+	</body>
+</html>
